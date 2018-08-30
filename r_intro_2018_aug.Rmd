@@ -1,0 +1,37 @@
+---
+title: "Datu analīze un vizualizācija ar R programmēšanas valodu (2018.g. augusts)"
+author: "Dmitrijs Kašs"
+date: "`r Sys.time()`"
+output: html_document
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Jūsu papildus jautājumi
+
+1. Kuros gadījumos jāizvēlas `R` un kuros `Excel`?
+     * Labs apkopojums rakstā [Why R is Better Than Excel for Fantasy Football (and most other) Data Analysis](https://fantasyfootballanalytics.net/2014/01/why-r-is-better-than-excel.html)
+     
+2. Sadarbība ar citiem `R` programmētājiem: 
+    * [Git Wikipedia](https://en.wikipedia.org/wiki/Git)
+    * [R for Data Science, 27.7 Learning more](http://r4ds.had.co.nz/r-markdown.html#learning-more-3)
+    
+3. Vai ir iespējams apskatīt kādas pakotnes funkciju kodu?
+    * Jā, bet kods var būt arī citā valodā, piem., `C`
+    * Pamēģiniet:
+        * `sum` bez iekavām
+        * `dplyr::count` bez iekavām
+        * [dplyr Github lapa](https://github.com/tidyverse/dplyr)
+        
+4. Kā noskaidrot pakotnes popularitāti?
+    * [RStudio Support: Quick list of useful R packages](https://support.rstudio.com/hc/en-us/articles/201057987-Quick-list-of-useful-R-packages?mobile_site=true)
+    
+5. Tālākmācību iespējas (daudz!)
+    * [R for Data Science](http://r4ds.had.co.nz/) (bezmaksas) grāmata
+    * [R Programming for Data Science](https://leanpub.com/rprogramming) (bezmaksas) grāmata
+    * https://www.datacamp.com
+    * https://www.coursera.org/
+    * https://www.edx.org/
